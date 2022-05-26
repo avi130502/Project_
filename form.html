@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    hr{
+        background-color: red; 
+        color: red;
+        border-color: red;
+        height: 1.5px;
+    }
+</style>
+<body>
+    <h1>This is my form</h1>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname">
+        </form>
+    </fieldset>
+    <hr >
+    <fieldset>
+        <legend>Course Info</legend>
+        <form>
+            <label for="course">Course:</label>
+            <br>
+            <input type="radio" id="course"> Web Design
+            <br>
+            <input type="radio" id="course"> SQL
+            <br>
+            <input type="radio" id="course"> Programming
+            <br>
+            <label for="goal">Carrer Goal:</label>
+            <br>
+            <select id="goal">
+                <option>Progammer</option>
+            </select>
+            <br>
+            <br>
+            <label for="course">Describe any additional skills you have:</label>
+            <br>
+            <textarea name="des" id="des" cols="60" rows="10"></textarea>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </form>
+    </fieldset>
+    <hr>
+    <br>
+    <br>
+    <form>
+        <label for="check">For how long would you like to work with us</label>
+        <br>
+        <input type="checkbox" id="check"> 1 year
+        <br>
+        <input type="checkbox" id="check"> Seasonal Work
+        <br>
+        <button>Enter my information</button>
+        <button>Reset Form</button>
+    </form>
+</body>
+</html>
